@@ -1,0 +1,4 @@
+domain(1;2;3).
+codomain(a;b).
+
+{f(X,Y): codomain(Y)} = 1 :- domain(X).

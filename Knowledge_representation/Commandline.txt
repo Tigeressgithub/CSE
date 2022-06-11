@@ -1,0 +1,2 @@
+cd C:\Users\MV\Desktop\CSE_579\Insruance_proj
+clingo Code.txt 0
