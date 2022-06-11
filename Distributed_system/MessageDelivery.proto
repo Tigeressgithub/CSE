@@ -1,0 +1,30 @@
+
+syntax = "proto3";
+
+service MsgDelivery {
+    rpc client_request(clientrequest) returns (recv){}
+} 
+
+
+message clientrequest{
+    int32 id = 1;
+    string type = 2;
+    repeated event events= 3;
+
+}
+
+message event{
+    int32 id = 1;
+    string interface = 2;
+    int32 money = 3;
+
+
+}
+
+
+message recv{
+    int32 id = 1;
+    string type = 2;
+    int32 balance =3;
+
+}

@@ -1,0 +1,15 @@
+python -m grpc_tools.protoc -Iprotos --python_out=. --grpc_python_out=. protos/MessageDelivery.proto
+
+protoc -I=$SRC_DIR --python_out=$DST_DIR $SRC_DIR/protos/MessageDelivery.proto
+
+protoc -I=C:\Users\MV\Desktop\cse531_proj1 --python_out=C:\Users\MV\Desktop\cse531_proj1 C:\Users\MV\Desktop\cse531_proj1\MessageDelivery.proto
+
+
+grpc_tools.protoc -I=C:\Users\MV\Desktop\cse531_proj1 --python_out=C:\Users\MV\Desktop\cse531_proj1 --grpc_python_out=C:\Users\MV\Desktop\cse531_proj1 C:\Users\MV\Desktop\cse531_proj1\MessageDelivery.proto
+
+protoc -I=C:\Users\MV\Desktop\cse531_proj1 --python_out=C:\Users\MV\Desktop\cse531_proj1 --grpc_python_out=C:\Users\MV\Desktop\cse531_proj1 C:\Users\MV\Desktop\cse531_proj1\MessageDelivery.proto
+
+conda create 
+
+python -m grpc_tools.protoc -I=C:\Users\MV\Desktop\cse531_proj1 --python_out=C:\Users\MV\Desktop\cse531_proj1 --grpc_python_out=C:\Users\MV\Desktop\cse531_proj1 C:\Users\MV\Desktop\cse531_proj1\MessageDelivery.proto
+
